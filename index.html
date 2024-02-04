@@ -6,8 +6,46 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
 </head>
 <body>
+    <div class="container">
+        <!-- 시작 화면 -->
+        <section id="start">
+            <p class="start-title">나는 어떤<br>프로그래밍 언어일까 ?</p>
+            <div class="start-img">
+                <img src="./assets/start_img.jpg" alt="start img" loading="lazy" />
+            </div>
+            <button type="button" class="start-button">테스트 하러가기</button>
+        </section>
     
+        <!-- 질문 화면 -->
+        <section id="question">
+            <div class="question-box"></div>
+            <div class="answer-box"></div>
+        </section>
+    
+        <!-- 결과 화면 -->
+        <section id="result">
+
+            <div id="capture">
+                <p class="result-title-wrapper">
+                    <div>당신은</div>
+                    <div class="result-summary"></div>
+                    <div class="result-title"></div>
+                </p>
+
+                <div class="result-img"></div>
+                <div class="result-desc-wrapper"></div>
+                <div class="result-desc"></div>
+            </div>
+            
+
+            <!-- <button type="button" class="restart-button">Restart</button>
+            <button type="button" class="save-button">Save</button> -->
+
+        </section>
+    </div>
+
 </body>
 </html>
